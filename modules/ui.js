@@ -30,7 +30,7 @@ export default class UI {
     if (el.classList.contains('remover')) {
       el.parentElement.remove();
     }
-}
+  }
 
   static clearFields() {
     document.querySelector('#txtTitle').value = '';
