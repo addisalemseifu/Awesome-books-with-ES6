@@ -47,9 +47,9 @@
 > HTML&CSS&JS&Webpack Modules(Luxon)
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo">Live demo not available</a>
 
-- [Live Demo Link]()
+- ['Live demo not available']()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

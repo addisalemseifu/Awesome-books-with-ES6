@@ -1,14 +1,14 @@
 import Store from './storage.js';
 
 export default class UI {
-  static displayBooks() {
+  static displayBooks = () => {
     const books = Store.getBooks();
     books.forEach((book) => {
       UI.addBookToList(book);
     });
   }
 
-  static addBookToList(book) {
+  static addBookToList = (book) => {
     const newBook = document.createElement('div');
     newBook.classList.add('newBook');
     const booksList = document.querySelector('.books-list');
@@ -26,18 +26,18 @@ export default class UI {
     }
   }
 
-  static deleteBook(el) {
+  static deleteBook = (el) => {
     if (el.classList.contains('remover')) {
       el.parentElement.remove();
     }
   }
 
-  static clearFields() {
+  static clearFields = () => {
     document.querySelector('#txtTitle').value = '';
     document.querySelector('#txtAuthor').value = '';
   }
 
-  static pageStyler() {
+  static pageStyler = () => {
     const list = document.getElementsByClassName('list');
     const main = document.getElementsByClassName('main');
     // eslint-disable-next-line no-plusplus
